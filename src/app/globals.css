@@ -20,9 +20,18 @@ body {
   background-color:#1B0325;
   
 }
+.btnGradiant{
+  background: radial-gradient(109.99% 253.12% at 76.68% 66.67%, #602EA6 0%, #AF52BD 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+  .btnGradiant{
+    background: radial-gradient(109.99% 253.12% at 76.68% 66.67%, #602EA6 0%, #AF52BD 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+/* background: linear-gradient(180deg, rgba(254, 200, 241, 0.9) -22.92%, rgba(254, 200, 241, 0) 26.73%); */
+
   }
 }
