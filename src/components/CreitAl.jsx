@@ -4,11 +4,11 @@ import creitAi from "../../public/svg/CreitAi.svg";
 
 const CreitAl = () => {
   return (
-    <div className="pt-5">
+    <div className="pt-5 lg:block hidden">
       <div className="flex flex-col items-center gap-9">
-        <h1 className="text-center text-[36px]  font-bold text-white ">
+        <h1 className="text-center text-2xl lg:text-[36px]  font-bold text-white ">
           Welcome to CREIT AI Advanced{" "}
-          <span className="text-[#D563AE] text-base font-bold  sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+          <span className="text-[#D563AE] text-2xl  font-bold  sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             trading bots
           </span>
         </h1>
