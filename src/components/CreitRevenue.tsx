@@ -6,7 +6,7 @@ const CreitRevenue = () => {
     <div className="pt-20 lg:pt-80">
       <div className="pb-20">
         <h1 className="text-center text-2xl lg:text-[36px] leading-7  font-bold text-white">
-          Maximize Your Earnings: CREIT's Dynamic{" "}
+          Maximize Your Earnings: CREIT&apos;s Dynamic{" "}
           <span className="text-[#D563AE] text-2xl leading-7 lg:text-[36px] font-bold lg:leading-[54px]">
             Revenue Sharing Model
           </span>{" "}

@@ -34,7 +34,7 @@ const CreitMeet = () => {
           </div>
           <div>
             <h1 className="font-bold text-xl text-[#FADCFF] leading-9">
-              CREIT's Unique Solution:
+              CREIT&apos;s Unique Solution:
             </h1>
             <p className="w-full max-w-[448px] font-normal text-xl text-[#E1B5E5] leading-[30px]">
               CREIT introduces a revolutionary Real Estate Portfolio offering
@@ -56,7 +56,7 @@ const CreitMeet = () => {
       {/* for mobile  */}
 
       {crietRevnue.map((x) => (
-        <div className="flex lg:hidden  justify-center items-center flex-col gap-12">
+        <div key={x.id} className="flex lg:hidden  justify-center items-center flex-col gap-12">
           <div className="pb-2">
             <Image src={x.crietImage} alt="crietM" width={369} height={297} priority />
           </div>
