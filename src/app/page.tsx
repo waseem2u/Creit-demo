@@ -1,22 +1,22 @@
 import Image from "next/image";
-import CreitAi from "../components/CreitAl.jsx";
-import Navbar from "../components/Navbar.jsx";
-import HeroSection from "../components/HeroSection.jsx";
-import Trading from "../components/Trading.jsx";
-import CreitMeet from "../components/CreitMeet.jsx";
-import CreitRevenu from "../components/CreitRevenue.jsx";
-import Footer from "../components/Footer.jsx";
+import CreitAi from "../components/CreitAl";
+import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import Trading from "../components/Trading";
+import CreitMeet from "../components/CreitMeet";
+import CreitRevenu from "../components/CreitRevenue";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <HeroSection />
-      {/* <Trading />
+      <Trading />
       <CreitAi />
       <CreitMeet />
       <CreitRevenu />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

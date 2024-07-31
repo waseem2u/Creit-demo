@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import creitMeet from "../../public/image/creitMeet.png";
-// import crietM from "../../public/image/creitM.png";
-import { crietRevnue } from "../../src/Contants";
+import { crietRevnue } from "../Contants";
 
 const CreitMeet = () => {
   return (
@@ -17,7 +15,7 @@ const CreitMeet = () => {
       <div className=" lg:flex lg:justify-center lg:items-center lg:gap-12 hidden">
         <div>
           <Image
-            src={creitMeet}
+            src='/image/creitMeet.png'
             width={602}
             height={1146}
             alt="creitMeet"
@@ -60,7 +58,7 @@ const CreitMeet = () => {
       {crietRevnue.map((x) => (
         <div className="flex lg:hidden  justify-center items-center flex-col gap-12">
           <div className="pb-2">
-            <Image src={x.crietImage} alt="crietM" width={369} height={297} piority />
+            <Image src={x.crietImage} alt="crietM" width={369} height={297} priority />
           </div>
           <div>
             <div className="pb-8">

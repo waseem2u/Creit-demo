@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import creitAi from "../../public/svg/CreitAi.svg";
 
 const CreitAl = () => {
   return (
-    <div className="pt-5 lg:block hidden">
+    <div className="pt-5 lg:block md:block md:p-8 hidden">
       <div className="flex flex-col items-center gap-9">
         <h1 className="text-center text-2xl lg:text-[36px]  font-bold text-white ">
           Welcome to CREIT AI Advanced{" "}
@@ -21,7 +20,7 @@ const CreitAl = () => {
       <div className="flex justify-center items-center flex-col pt-[5rem]">
         <div>
           <Image
-            src={creitAi}
+            src='/svg/CreitAi.svg'
             width={1001}
             height={703}
             alt="creitAi"

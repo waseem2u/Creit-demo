@@ -4,7 +4,7 @@ import trading from "../../public/image/trading.png";
 
 const Trading = () => {
   return (
-    <div className="p-4 lg:p-0 lg:flex lg:justify-center lg:items-center lg:flex-row flex justify-center items-center flex-col gap-[70px] lg:gap-[180px] lg:m-[15rem]">
+    <div className="p-4 md:p-8 md:mt-24 md:mb-24 lg:p-0 lg:flex lg:justify-center lg:items-center lg:flex-row flex justify-center items-center flex-col md:gap[97px] md:flex-row gap-[70px] lg:gap-[180px] lg:m-[15rem]">
       <div className=" lg:w-[38%] w-full pt-12 lg:pt-0">
         <h1 className="text-2xl leading-9 lg:text-[36px] font-bold lg:leading-[54px] text-[#E1B5E5]">
           CREIT uses an advanced AI trading algorithms to achieve{" "}
