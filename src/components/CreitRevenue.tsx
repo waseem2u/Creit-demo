@@ -16,7 +16,7 @@ const CreitRevenue = () => {
 
       <div className="flex justify-center items-center pb-12  lg:hidden">
         <Image
-          src='/image/creitRevenue.png'
+          src="/image/creitRevenue.png"
           alt="revenue"
           width={342}
           height={386}
@@ -27,9 +27,15 @@ const CreitRevenue = () => {
       {/* for dextop  */}
 
       <div className="lg:flex lg:justify-center lg:items-center hidden">
-        <Image src='/image/creitRevenue.png' alt="revenue" width={547} height={548} priority />
+        <Image
+          src="/image/creitRevenue.png"
+          alt="revenue"
+          width={547}
+          height={548}
+          priority
+        />
       </div>
-      <div className="flex justify-center items-start flex-col p-8 md:p-12 lg:p-32 lg:gap-10">
+      <div className="flex justify-center items-start flex-col p-8 md:p-12 lg:p-[29rem] lg:pt-40  lg:pb-40 lg:gap-10">
         <h1 className="text-[22px]  font-bold text-[#FADCFF] justify-start">
           Milestone Growth Tracker:
         </h1>
@@ -45,8 +51,14 @@ const CreitRevenue = () => {
             holders even more generously. Taxes will be 5% on all buys/sells and
             will be used for various needs of the project.
           </p>
-          <div>
-            <Image src='/image/grafh.png' width={1168} height={207} alt="grafh" priority />
+          <div className="pt-32">
+            <Image
+              src="/image/grafh.png"
+              width={1168}
+              height={207}
+              alt="grafh"
+              priority
+            />
           </div>
         </div>
 
@@ -62,9 +74,9 @@ const CreitRevenue = () => {
             holders even more generously. Taxes will be 5% on all buys/sells and
             will be used for various needs of the project.
           </p>
-          <div>
+          <div className="pb-32">
             <Image
-              src='/image/graphX.png'
+              src="/image/graphX.png"
               width={1168}
               height={207}
               alt="grafh"

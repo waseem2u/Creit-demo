@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const CreitAl = () => {
   return (
-    <div className="pt-5 lg:block md:block md:p-8 hidden">
+    <div className="pt-5 lg:block md:block md:p-8 md:pb-64 hidden">
       <div className="flex flex-col items-center gap-9">
         <h1 className="text-center text-2xl lg:text-[36px]  font-bold text-white ">
           Welcome to CREIT AI Advanced{" "}
