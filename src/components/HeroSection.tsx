@@ -6,7 +6,7 @@ const HeroSection = () => {
     // for dextoop
     <div>
       <div className="bg-[url('/image/creitBg.png')]  md:block md:h-screen bg-no-repeat bg-cover   h-screen hidden">
-        <div className="flex justify-center items-center flex-col gap-[40px] p-[18rem]">
+        <div className="flex justify-center items-center flex-col gap-[40px] p-[4rem]">
           <h1 className="text-center text-2xl lg:text-4xl font-bold text-white sm:text-lg md:text-xl  xl:text-4xl 2xl:text-5xl">
             CREIT: Simplifying{" "}
             <span className="text-[#D563AE] text-2xl  font-bold  sm:text-lg md:text-xl lg:text-4xl xl:text-4xl 2xl:text-5xl">
